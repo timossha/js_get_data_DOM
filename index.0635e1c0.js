@@ -1,0 +1,2 @@
+var t=Array.from(document.getElementsByClassName("population")).map(function(t){return+t.textContent.replaceAll(",","")}),e=t.reduce(function(t,e){return t+e});document.getElementsByClassName("total-population")[0].textContent=e.toLocaleString("en-US"),document.getElementsByClassName("average-population")[0].textContent=Math.round(e/t.length).toLocaleString("en-US");
+//# sourceMappingURL=index.0635e1c0.js.map
